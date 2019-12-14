@@ -32,6 +32,7 @@ struct ContentView: View {
 
 VStack은 세로 정렬, HStack은 가로 정렬을 해준다. 
 
-<img width="1295" alt="스크린샷 2019-12-15 오전 1 47 12" src="https://user-images.githubusercontent.com/9502063/70851841-df3acd80-1edd-11ea-9a45-c950f1440d2b.png">
-<img width="1276" alt="스크린샷 2019-12-15 오전 1 47 19" src="https://user-images.githubusercontent.com/9502063/70851842-df3acd80-1edd-11ea-8888-af4354430f23.png">
+<img width="948" alt="스크린샷 2019-12-15 오전 1 53 26" src="https://user-images.githubusercontent.com/9502063/70851852-fc6f9c00-1edd-11ea-8bfc-66059dd9e00c.png">
+<img width="997" alt="스크린샷 2019-12-15 오전 1 53 39" src="https://user-images.githubusercontent.com/9502063/70851853-fc6f9c00-1edd-11ea-8eb4-d714961a3fb1.png">
+
 
