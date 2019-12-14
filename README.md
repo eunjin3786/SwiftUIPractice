@@ -36,3 +36,7 @@ VStack은 세로 정렬, HStack은 가로 정렬을 해준다.
 <img width="997" alt="스크린샷 2019-12-15 오전 1 53 39" src="https://user-images.githubusercontent.com/9502063/70851853-fc6f9c00-1edd-11ea-8eb4-d714961a3fb1.png">
 
 
+ZSTack이라는 것도 있다. 
+
+이거 나중에 정리하장~ 카테고리화해서
+
