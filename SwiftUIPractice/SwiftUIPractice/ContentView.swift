@@ -2,9 +2,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(alignment: .leading, spacing: 50) {
+        VStack {
+            // System
+            Text("Hello, SwiftUI")
+                .font(.title)
+                .fontWeight(.thin)
+                .foregroundColor(.orange)
+            
+            // Custom
             Text("Hello, World!")
-            Text("Hello, SwiftUI SwiftUI SwiftUI")
+                .font(.largeTitle)
+                .foregroundColor(Color(red: 130/255, green: 150/255, blue: 150/255))
         }
     }
 }
