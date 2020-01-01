@@ -1,16 +1,11 @@
-//
-//  ContentView.swift
-//  SwiftUIPractice
-//
-//  Created by eunjin on 2019/12/15.
-//  Copyright © 2019 eunjin. All rights reserved.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        ZStack {
+            Text("Hello, World!")
+            Text("Hello, SwiftUI")
+        }
     }
 }
 
