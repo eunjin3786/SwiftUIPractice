@@ -15,6 +15,7 @@
 		AC6EF1B423A546D900D6A986 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6EF1B223A546D900D6A986 /* LaunchScreen.storyboard */; };
 		AC6EF1BF23A546DA00D6A986 /* SwiftUIPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6EF1BE23A546DA00D6A986 /* SwiftUIPracticeTests.swift */; };
 		AC6EF1CA23A546DA00D6A986 /* SwiftUIPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6EF1C923A546DA00D6A986 /* SwiftUIPracticeUITests.swift */; };
+		ACAFA938243A141800C2BC1A /* NanumSquareRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACAFA937243A141800C2BC1A /* NanumSquareRegular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		AC6EF1C523A546DA00D6A986 /* SwiftUIPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC6EF1C923A546DA00D6A986 /* SwiftUIPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPracticeUITests.swift; sourceTree = "<group>"; };
 		AC6EF1CB23A546DA00D6A986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACAFA937243A141800C2BC1A /* NanumSquareRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareRegular.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +101,10 @@
 		AC6EF1A623A546D700D6A986 /* SwiftUIPractice */ = {
 			isa = PBXGroup;
 			children = (
+				ACAFA939243A16C900C2BC1A /* Resource */,
 				AC6EF1A723A546D700D6A986 /* AppDelegate.swift */,
 				AC6EF1A923A546D700D6A986 /* SceneDelegate.swift */,
 				AC6EF1AB23A546D700D6A986 /* ContentView.swift */,
-				AC6EF1AD23A546D900D6A986 /* Assets.xcassets */,
 				AC6EF1B223A546D900D6A986 /* LaunchScreen.storyboard */,
 				AC6EF1B523A546D900D6A986 /* Info.plist */,
 				AC6EF1AF23A546D900D6A986 /* Preview Content */,
@@ -134,6 +136,15 @@
 				AC6EF1CB23A546DA00D6A986 /* Info.plist */,
 			);
 			path = SwiftUIPracticeUITests;
+			sourceTree = "<group>";
+		};
+		ACAFA939243A16C900C2BC1A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				ACAFA937243A141800C2BC1A /* NanumSquareRegular.ttf */,
+				AC6EF1AD23A546D900D6A986 /* Assets.xcassets */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACAFA938243A141800C2BC1A /* NanumSquareRegular.ttf in Resources */,
 				AC6EF1B423A546D900D6A986 /* LaunchScreen.storyboard in Resources */,
 				AC6EF1B123A546D900D6A986 /* Preview Assets.xcassets in Resources */,
 				AC6EF1AE23A546D900D6A986 /* Assets.xcassets in Resources */,
