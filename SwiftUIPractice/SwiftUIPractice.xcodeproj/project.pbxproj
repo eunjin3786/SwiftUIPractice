@@ -16,6 +16,7 @@
 		AC6EF1BF23A546DA00D6A986 /* SwiftUIPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6EF1BE23A546DA00D6A986 /* SwiftUIPracticeTests.swift */; };
 		AC6EF1CA23A546DA00D6A986 /* SwiftUIPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6EF1C923A546DA00D6A986 /* SwiftUIPracticeUITests.swift */; };
 		ACAFA938243A141800C2BC1A /* NanumSquareRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACAFA937243A141800C2BC1A /* NanumSquareRegular.ttf */; };
+		ACAFA93C2444C34D00C2BC1A /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFA93B2444C34D00C2BC1A /* Friend.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		AC6EF1C923A546DA00D6A986 /* SwiftUIPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPracticeUITests.swift; sourceTree = "<group>"; };
 		AC6EF1CB23A546DA00D6A986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACAFA937243A141800C2BC1A /* NanumSquareRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareRegular.ttf; sourceTree = "<group>"; };
+		ACAFA93B2444C34D00C2BC1A /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		AC6EF1A623A546D700D6A986 /* SwiftUIPractice */ = {
 			isa = PBXGroup;
 			children = (
+				ACAFA93A2444C33A00C2BC1A /* Model */,
 				ACAFA939243A16C900C2BC1A /* Resource */,
 				AC6EF1A723A546D700D6A986 /* AppDelegate.swift */,
 				AC6EF1A923A546D700D6A986 /* SceneDelegate.swift */,
@@ -145,6 +148,14 @@
 				AC6EF1AD23A546D900D6A986 /* Assets.xcassets */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		ACAFA93A2444C33A00C2BC1A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ACAFA93B2444C34D00C2BC1A /* Friend.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +293,7 @@
 				AC6EF1A823A546D700D6A986 /* AppDelegate.swift in Sources */,
 				AC6EF1AA23A546D700D6A986 /* SceneDelegate.swift in Sources */,
 				AC6EF1AC23A546D700D6A986 /* ContentView.swift in Sources */,
+				ACAFA93C2444C34D00C2BC1A /* Friend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
