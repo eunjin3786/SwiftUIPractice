@@ -10,17 +10,25 @@ struct ContentView: View {
     
     var body: some View {
         List(friends) { friend in
-            HStack {
-                Image(friend.profileImageName)
-                    .resizable()
-                    .aspectRatio(contentMode: .fill)
-                    .frame(width: 100, height: 100, alignment: .center)
-                    .clipShape(Circle())
-                
-                Text(friend.name)
-                    .font(.custom("NanumSquareR", size: 20))
-                    .foregroundColor(.gray)
-            }
+            FriendCell(friend: friend)
+        }
+    }
+}
+
+struct FriendCell: View {
+    let friend: Friend
+    
+    var body: some View {
+        HStack {
+            Image(friend.profileImageName)
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .frame(width: 100, height: 100, alignment: .center)
+                .clipShape(Circle())
+            
+            Text(friend.name)
+                .font(.custom("NanumSquareR", size: 20))
+                .foregroundColor(.gray)
         }
     }
 }
