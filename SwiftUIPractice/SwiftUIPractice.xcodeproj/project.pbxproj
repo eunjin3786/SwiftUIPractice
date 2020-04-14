@@ -17,6 +17,7 @@
 		AC6EF1CA23A546DA00D6A986 /* SwiftUIPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6EF1C923A546DA00D6A986 /* SwiftUIPracticeUITests.swift */; };
 		ACAFA938243A141800C2BC1A /* NanumSquareRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACAFA937243A141800C2BC1A /* NanumSquareRegular.ttf */; };
 		ACAFA93C2444C34D00C2BC1A /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFA93B2444C34D00C2BC1A /* Friend.swift */; };
+		ACAFA93E244602F700C2BC1A /* FriendDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFA93D244602F700C2BC1A /* FriendDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		AC6EF1CB23A546DA00D6A986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACAFA937243A141800C2BC1A /* NanumSquareRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareRegular.ttf; sourceTree = "<group>"; };
 		ACAFA93B2444C34D00C2BC1A /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		ACAFA93D244602F700C2BC1A /* FriendDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				AC6EF1A723A546D700D6A986 /* AppDelegate.swift */,
 				AC6EF1A923A546D700D6A986 /* SceneDelegate.swift */,
 				AC6EF1AB23A546D700D6A986 /* ContentView.swift */,
+				ACAFA93D244602F700C2BC1A /* FriendDetail.swift */,
 				AC6EF1B223A546D900D6A986 /* LaunchScreen.storyboard */,
 				AC6EF1B523A546D900D6A986 /* Info.plist */,
 				AC6EF1AF23A546D900D6A986 /* Preview Content */,
@@ -294,6 +297,7 @@
 				AC6EF1AA23A546D700D6A986 /* SceneDelegate.swift in Sources */,
 				AC6EF1AC23A546D700D6A986 /* ContentView.swift in Sources */,
 				ACAFA93C2444C34D00C2BC1A /* Friend.swift in Sources */,
+				ACAFA93E244602F700C2BC1A /* FriendDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

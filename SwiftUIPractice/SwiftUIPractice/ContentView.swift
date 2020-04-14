@@ -9,8 +9,14 @@ struct ContentView: View {
                    Friend(name: "윌리엄", profileImageName: "baby")]
     
     var body: some View {
-        List(friends) { friend in
-            FriendCell(friend: friend)
+        NavigationView {
+            List(friends) { friend in
+                NavigationLink(destination: FriendDetail(friend: friend)) {
+                    FriendCell(friend: friend)
+                }
+            }
+                
+            .navigationBarTitle("리스트")
         }
     }
 }
