@@ -10,7 +10,7 @@
 ### 🍯 꿀팁 🍯
 | Number |                            Title                             |            Memo             |
 | :----: | :----------------------------------------------------------: | :-------------------------: |
-|   1    | [extract subview](https://github.com/eunjin3786/SwiftUIPractice/blob/master/MD/1.%20기본개념.md) | - 편하게 subview를 뽑아내자 |
+|   1    | [extract subview](https://github.com/eunjin3786/SwiftUIPractice/blob/master/MD/Extract%20subview.md) | - 편하게 subview를 뽑아내자 |
 |   2    |                                                              |                             |
 |   3    |                                                              |                             |
 
