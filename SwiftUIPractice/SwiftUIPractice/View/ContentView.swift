@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List(friends) { friend in
-                NavigationLink(destination: FriendDetail(friend: friend)) {
+                NavigationLink(destination: FriendDetailGridView(friend: friend)) {
                     FriendCell(friend: friend)
                 }
             }

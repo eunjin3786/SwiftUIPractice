@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct FriendDetail: View {
+struct FriendDetailView: View {
     let friend: Friend
     
     var body: some View {
@@ -15,9 +15,9 @@ struct FriendDetail: View {
     }
 }
 
-struct FriendDetail_Previews: PreviewProvider {
+struct FriendDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        FriendDetail(friend: Friend(name: "윌리엄",
-                                    profileImageName: "baby"))
+        FriendDetailView(friend: Friend(name: "윌리엄",
+                                        profileImageName: "baby"))
     }
 }
