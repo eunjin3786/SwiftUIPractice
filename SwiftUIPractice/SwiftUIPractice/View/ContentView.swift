@@ -1,13 +1,10 @@
 import SwiftUI
 
 struct ContentView: View {
-    let friends = [Friend(name: "윌리엄", profileImageName: "baby"),
-                   Friend(name: "윌리엄", profileImageName: "baby"),
-                   Friend(name: "윌리엄", profileImageName: "baby"),
-                   Friend(name: "윌리엄", profileImageName: "baby"),
-                   Friend(name: "윌리엄", profileImageName: "baby"),
-                   Friend(name: "윌리엄", profileImageName: "baby")]
-    
+    @State var friends: [Friend] = [Friend(name: "윌리엄", profileImageName: "baby"),
+                                    Friend(name: "윌리엄", profileImageName: "baby"),
+                                    Friend(name: "윌리엄", profileImageName: "baby")]
+
     var body: some View {
         NavigationView {
             List(friends) { friend in
@@ -15,8 +12,26 @@ struct ContentView: View {
                     FriendCell(friend: friend)
                 }
             }
-                
             .navigationBarTitle("리스트")
+            .navigationBarItems(leading: navigationLeftBarItem,
+                                trailing: navigationRightBarItem)
+        }
+    }
+    
+    var navigationLeftBarItem: some View {
+        Button(action: {
+            self.friends.removeLast()
+        }) {
+            Text("-").font(.largeTitle)
+        }
+    }
+    
+    var navigationRightBarItem: some View {
+        Button(action: {
+            let friend = Friend(name: "윌리엄", profileImageName: "baby")
+            self.friends.append(friend)
+        }) {
+            Text("+").font(.largeTitle)
         }
     }
 }
