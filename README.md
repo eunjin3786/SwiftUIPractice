@@ -6,7 +6,7 @@
 |   2    | [Componets](https://github.com/eunjin3786/SwiftUIPractice/blob/master/MD/2.%20Components.md) |             - Text<br /> - Image<br /> - Spacer              |
 |   3    | [List & Navigation](https://github.com/eunjin3786/SwiftUIPractice/blob/master/MD/3.%20List%20%26%20Navigation.md) |                                                              |
 |   4    | [Grid](https://github.com/eunjin3786/SwiftUIPractice/blob/master/MD/4.%20Grid.md) |                                                              |
-|   5    | [State & Binding](https://github.com/eunjin3786/SwiftUIPractice/blob/master/MD/5.%20State%20&%20Binding.md) | - @State<br />- @Binding <br/>- @ObservedObject <br />- @EnvironmentObject<br />- Single source of truth<br />- TextField, Toggle |
+|   5    | [State & Binding](https://github.com/eunjin3786/SwiftUIPractice/blob/master/MD/5.%20State%20&%20Binding.md) | - @State<br />- @Binding <br/>- @ObservedObject <br />- @Published<br />- @EnvironmentObject<br />- Single source of truth<br />- TextField, Toggle |
 
 
 
