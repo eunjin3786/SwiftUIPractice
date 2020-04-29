@@ -20,6 +20,7 @@
 		ACAFA93E244602F700C2BC1A /* FriendDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFA93D244602F700C2BC1A /* FriendDetailView.swift */; };
 		ACAFA943244730A100C2BC1A /* FriendDetailGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFA942244730A100C2BC1A /* FriendDetailGridView.swift */; };
 		ACAFA946244730E500C2BC1A /* Array+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFA945244730E500C2BC1A /* Array+extension.swift */; };
+		ACAFA948245962D500C2BC1A /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFA947245962D500C2BC1A /* UserSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		ACAFA93D244602F700C2BC1A /* FriendDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendDetailView.swift; sourceTree = "<group>"; };
 		ACAFA942244730A100C2BC1A /* FriendDetailGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendDetailGridView.swift; sourceTree = "<group>"; };
 		ACAFA945244730E500C2BC1A /* Array+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+extension.swift"; sourceTree = "<group>"; };
+		ACAFA947245962D500C2BC1A /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				ACAFA93B2444C34D00C2BC1A /* Friend.swift */,
+				ACAFA947245962D500C2BC1A /* UserSettings.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				AC6EF1AA23A546D700D6A986 /* SceneDelegate.swift in Sources */,
 				AC6EF1AC23A546D700D6A986 /* ContentView.swift in Sources */,
 				ACAFA93C2444C34D00C2BC1A /* Friend.swift in Sources */,
+				ACAFA948245962D500C2BC1A /* UserSettings.swift in Sources */,
 				ACAFA946244730E500C2BC1A /* Array+extension.swift in Sources */,
 				ACAFA93E244602F700C2BC1A /* FriendDetailView.swift in Sources */,
 			);

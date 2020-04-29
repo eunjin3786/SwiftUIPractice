@@ -20,7 +20,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
 
         // Create the SwiftUI view that provides the window contents.
-        let contentView = ContentView()
+        let userSettings = UserSettings()
+        let contentView = ContentView().environmentObject(userSettings)
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
@@ -28,12 +29,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             window.rootViewController = UIHostingController(rootView: contentView)
             self.window = window
             window.makeKeyAndVisible()
-        }
-        
-        for fontFamily in UIFont.familyNames {
-            for fontName in UIFont.fontNames(forFamilyName: fontFamily) {
-                print(fontName)
-            }
         }
     }
 
